@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head><style>
+body{
+color:white;
+font-family:Arial;
+margin:10px;
+padding:10px;
+background-color:black;
+}
+h1{
+color:#1db954;
+text-align:center;
+font-family:Algerian;
+text-shadow: 0 0 10px #1db954, 0 0 20px #1db954;
+}
+h2 a:hover{
+color: #00ff00;
+text-shadow: 0 0 10px green, 0 0 20px green, 0 0 30px green;
+}
+
+.navbar {
+background-color:black;
+font-size: 18px;
+padding: 10px 20px;
+margin: 0 5px;
+display:flex;
+justify-content:center;
+}
+.navbar ul{
+list-style-type:none;
+display:block;
+margin:0px;
+padding:0px;
+overflow:hidden;
+}
+.navbar li{
+padding:15px;
+float:left;
+}
+.navbar a:hover {
+   color: #0D7CFF;
+   text-shadow: 0 0 10px #0D7CFF, 0 0 20px #0D7CFF, 0 0 30px #0D7CFF;
+}
+.grid{
+display: flex;
+gap: 20px;
+overflow-x: auto;
+padding-bottom: 20px;
+}
+.image{
+padding:5px;
+margin:5px;
+width:125px;
+flex: 0 0 auto;
+}
+.image:hover {
+transform: scale(1.05);
+}
+.image img{
+width:140px;
+border-radius:10px;
+}
+.image a:hover{
+color:white;
+}
+.spotify p{
+margin: 5px 0 0;
+font-size: 14px;
+color: #ccc;
+}
+.spotify h4{
+margin: 5px 0 0;
+font-size: 16px;
+}
+.profile{
+padding:5px;
+margin:5px;
+width: 125px;
+flex: 0 0 auto;
+}
+.profile img{
+height:140px;
+width:140px;
+border-radius: 50%;
+}
+.profile:hover {
+transform: scale(1.05);
+}
+footer{
+background-color: #f5f5f5;
+text-align: center;
+padding: 20px;
+position: fixed;
+bottom: 0;
+width: 100%;
+font-size: 14px;
+color: #333;
+}
+</style></head>
+<body>
+<h1>SPOTIFY CLONE</h1>
+<nav class="navbar">
+<ul><li><a>Trending songs</a></li>
+<li><a>Popular artists</a></li>
+<li><a>Popular albums and singles</a></li>
+<li><a>Popular radio</a></li>
+<li><a>Featured Charts<a></li></ul></nav>
+<h2><a>Trending Songs</a></h2>
+<div class="spotify">
+<div class="section grid">
+<div class="image">
+<img src="maand.jpg" alt="Maand">
+<h4>Maand</h4>
+<p>Bayaan, Hasan Raheem, Rovalio</p>
+</div>
+<div class="image"><a>
+<img src="palpal.jpg" alt="Pal Pal">
+<h4>Pal Pal</h4>
+<p>Afusic, AliSoomroMusic</p>
+</a></div>
+<div class="image">
+<img src="jhol.jpg" alt="Jhol">
+<h4>Jhol</h4>
+<p>Maanu, Annural Khalid</p>
+</div>
+<div class="image">
+<img src="2khatole.jpg" alt="2 Khatole">
+<h4>2 Khatole (Lofi Mix)</h4>
+<p>Masoom Sharma</p>
+</div>
+<div class="image">
+<img src="findingher.jpg" alt="Finding Her">
+<h4>Finding Her</h4>
+<p>Kushagra, Bharath, Saaheal</p>
+</div>
+<div class="image">
+<img src="superstar.jpg" alt="Superstar">
+<h4>Superstar</h4>
+<p>dox, JASKARAN, Rita Kim</p>
+</div>
+<div class="image">
+<img src="hanuman.jpg" alt="hanuman">
+<h4>Shree Hanuman Chalisa</h4>
+<p>Hariharan</p>
+</div>
+<div class="image">
+<img src="paro.jpg" alt="paro">
+<h4>Paro</h4>
+<p>Aditya Rikhari, UNPLG'd</p>
+</div>
+<div class="image">
+<img src="chal.jpg" alt="chal">
+<h4>CHAL</h4>
+<p>Dabzee, Rishi Roy, Fathima Jahaan</p>
+</div>
+</div>
+<h2><a>Popular Artists</a></h2>
+<div class="section grid">
+<div class="profile">
+<img src="pritam.jpg" alt="not found">
+<h4>Pritam</h4>
+<p>Artist</p>
+</div>
+<div class="profile">
+<img src="arjit.jpg" alt="not found">
+<h4>Arjit Singh</h4>
+<p>Artist</p>
+</div>
+<div class="profile">
+<img src="rashman.jpg" alt="not found">
+<h4>A.R. Rahman</h4>
+<p>Artist</p>
+</div>
+<div class="profile">
+<img src="sachin.jpg" alt="not found">
+<h4>Sachin-Jigar</h4>
+<p>Artist</p>
+</div>
+<div class="profile">
+<img src="vishal.jpg" alt="not found">
+<h4>Vishal-Shekhar</h4>
+<p>Artist</p>
+</div>
+<div class="profile">
+<img src="atif.jpg" alt="not found">
+<h4>Atif Aslam</h4>
+<p>Artist</p>
+</div>
+<div class="profile">
+<img src="anirudh.jpg" alt="not found">
+<h4>Anirudh Ravichander</h4>
+<p>Artist</p>
+</div>
+<div class="profile">
+<img src="yoyo.jpg" alt="not found">
+<h4>Yo Yo Honey Singh</h4>
+<p>Artist</p>
+</div>
+<div class="profile">
+<img src="udit.jpg" alt="not found"></span>
+<h4>Udit Narayan</h4>
+<p>Artist</p>
+</div>
+</div>
+<h2><a>Popular albums and singles</a></h2>
+<div class="section grid">
+<div class="image">
+<img src="yehjawani.jpg" alt="not found">
+<h4>Yeh Jawaani Hai Deewani</h4>
+<p>Pritam</p>
+</div>
+<div class="image">
+<img src="aashiqui2.jpg" alt="not found">
+<h4>Aashiqui 2</h4>
+<p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
+</div>
+<div class="image">
+<img src="goat.jpg" alt="not found">
+<h4>Young G.O.A.T</h4>
+<p>Cheema Y, Gur Sidhu</p>
+</div>
+<div class="image">
+<img src="sanam.jpg" alt="not found">
+<h4>Sanam Teri Kasam (Original Motion Picture Soundtrack)</h4>
+<p>Himesh Reshammiya, Sameer Anjaan, Subrat Sinha</p>
+</div>
+<div class="image">
+<img src="glory.jpg" alt="not found">
+<h4>Glory</h4>
+<p>Yo Yo Honey Singh</p>
+</div>
+<div class="image">
+<img src="raanjhan.jpg" alt="not found">
+<h4>Raanjhan (From "Do Patti")</h4>
+<p>Sachet-Parampara, Parampara Tandon, Kausar Munir</p>
+</div>
+<div class="image">
+<img src="ultimate.jpg" alt="not found">
+<h4>Ultimate Love Songs - Arjit Singh</h4>
+<p>Arjit Singh</p>
+</div>
+<div class="image">
+<img src="memories.jpg" alt="not found">
+<h4>Making Memories</h4>
+<p>Karan Aujla</p>
+</div>
+<div class="image">
+<img src="jabwemet.jpg" alt="not found">
+<h4>Jab We Met</h4>
+<p>Pritam, Irshad Kamil, Sandesh Shandilya</p>
+</div>
+</div>
+<h2><a>Popular radio</a></h2>
+<div class="section grid">
+<div class="image">
+<img src="arjitradio.jpg" alt="not found">
+<p>With Sachin-Jigar, Vishal-Shekhar, Amit Trivedi and more</p>
+</div>
+<div class="image">
+<img src="shreya.jpg" alt="not found">
+<p>With A.R. Rahman, Vishal-Shekhar, Ajay-Atul and more</p>
+</div>
+<div class="image">
+<img src="diljit.jpg" alt="not found">
+<p>With Karan Aujla, Shubh, Sidhu Moose Wala and more</p>
+</div>
+<div class="image">
+<img src="prakash.jpg" alt="not found">
+<p>With Yuvan Shankar Raja, Santhosh Narayanan, Anirudh Ravichander and more</p>
+</div>
+<div class="image">
+<img src="kk.jpg" alt="not found">
+<p>With Armaan Malik, Mohit Chauhan, Mustafa Zahid and more</p>
+</div>
+<div class="image">
+<img src="sp.jpg" alt="not found">
+<p>With S. Janaki, Deva, Swarnalatha and more</p>
+</div>
+<div class="image">
+<img src="kumarsanu.jpg" alt="not found">
+<p>With Anuradha Paudwal, Asha Bhosle, Abjijeet and more</p>
+</div>
+<div class="image">
+<img src="honey.jpg" alt="not found">
+<p>With Badshah, Diljit Dosanjh, Harrdy Sandhu and more</p>
+</div>
+<div class="image">
+<img src="ar_rahman.jpg" alt="not found">
+<p>With Anirudh Ravichander, Harris Jayaraj, Yuvan Shankar Raja and more</p>
+</div>
+</div>
+<h2><a>Featured Charts</a></h2>
+<div class="section grid">
+<div class="image">
+<img src="global.png" alt="not found">
+<p>Your weekly update of the most played tracks right now - Global</p>
+</div>
+<div class="image">
+<img src="india.png" alt="not found">
+<p>Your weekly update of the most played tracks right now - India</p>
+</div>
+<div class="image">
+<img src="top50.jpg" alt="not found">
+<p>Your weekly update of the most played tracks right now - Global</p>
+</div>
+<div class="image">
+<img src="topindia.jpg" alt="not found">
+<p>Your weekly update of the most played tracks right now - India</p>
+</div>
+<div class="image">
+<img src="viral50.jpg" alt="not found">
+<p>Your weekly update of the most played tracks right now - Global</p>
+</div>
+<div class="image">
+<img src="viralindia.jpg" alt="not found">
+<p>Your weekly update of the most played tracks right now - India</p>
+</div>
+</div>
+</div>
+<footer>
+<p>Thokchom Bijiliya Devi | BCA 3rd Semester | Roll number BC2076 | NIELIT IMPHAL | Batch of 2023-2027</p>
+<p>Email: bijiliyathokchom@gmail.com | Phone: 7085514497</p>
+</footer>
+</body></html>
